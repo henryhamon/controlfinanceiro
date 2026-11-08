@@ -1,0 +1,749 @@
+{
+  "parceiros": [
+    {
+      "id": "F-001",
+      "tipo": "FORNECEDOR",
+      "nome": "Papelaria Central Ltda",
+      "documento": "12345678000190"
+    },
+    {
+      "id": "F-002",
+      "tipo": "FORNECEDOR",
+      "nome": "Energia Sul S.A.",
+      "documento": "98765432000110"
+    },
+    {
+      "id": "F-003",
+      "tipo": "FORNECEDOR",
+      "nome": "Logistica Rapida ME",
+      "documento": "45678912000133"
+    },
+    {
+      "id": "F-004",
+      "tipo": "FORNECEDOR",
+      "nome": "TecnoServ Informatica Ltda",
+      "documento": "33444555000122"
+    },
+    {
+      "id": "F-005",
+      "tipo": "FORNECEDOR",
+      "nome": "Atacado Limpeza Brasil",
+      "documento": "77888999000166"
+    },
+    {
+      "id": "C-001",
+      "tipo": "CLIENTE",
+      "nome": "Mercado Bom Preco Ltda",
+      "documento": "11222333000144"
+    },
+    {
+      "id": "C-002",
+      "tipo": "CLIENTE",
+      "nome": "Joao Carlos da Silva",
+      "documento": "12345678901"
+    },
+    {
+      "id": "C-003",
+      "tipo": "CLIENTE",
+      "nome": "Padaria Pao Quente ME",
+      "documento": "55666777000188"
+    },
+    {
+      "id": "C-004",
+      "tipo": "CLIENTE",
+      "nome": "Clinica Vida Saudavel S.A.",
+      "documento": "22333444000155"
+    },
+    {
+      "id": "C-005",
+      "tipo": "CLIENTE",
+      "nome": "Mariana Oliveira Santos",
+      "documento": "98765432100"
+    },
+    {
+      "id": "C-006",
+      "tipo": "CLIENTE",
+      "nome": "Construtora Horizonte Ltda",
+      "documento": "66777888000199"
+    }
+  ],
+  "lancamentos": [
+    {
+      "id": "P-0001",
+      "tipo": "PAGAR",
+      "parceiroId": "F-004",
+      "descricao": "Licenca anual antivirus",
+      "valor": 450,
+      "saldo": 0,
+      "vencimento": "2025-10-15",
+      "status": "PAGO",
+      "criadoEm": "2025-09-25",
+      "pagamentos": [
+        {
+          "data": "2025-10-15",
+          "valor": 450
+        }
+      ]
+    },
+    {
+      "id": "P-0002",
+      "tipo": "PAGAR",
+      "parceiroId": "F-002",
+      "descricao": "Fatura energia janeiro",
+      "valor": 1234.56,
+      "saldo": 0,
+      "vencimento": "2026-01-20",
+      "status": "PAGO",
+      "criadoEm": "2026-01-05",
+      "pagamentos": [
+        {
+          "data": "2026-01-20",
+          "valor": 1234.56
+        }
+      ]
+    },
+    {
+      "id": "P-0003",
+      "tipo": "PAGAR",
+      "parceiroId": "F-004",
+      "descricao": "Manutencao servidores fev",
+      "valor": 2890.4,
+      "saldo": 0,
+      "vencimento": "2026-02-15",
+      "status": "PAGO",
+      "criadoEm": "2026-01-21",
+      "pagamentos": [
+        {
+          "data": "2026-02-15",
+          "valor": 2890.4
+        }
+      ]
+    },
+    {
+      "id": "P-0004",
+      "tipo": "PAGAR",
+      "parceiroId": "F-001",
+      "descricao": "Compra papel A4 e toners",
+      "valor": 1000,
+      "saldo": 0,
+      "vencimento": "2026-01-25",
+      "status": "PAGO",
+      "criadoEm": "2026-01-07",
+      "pagamentos": [
+        {
+          "data": "2026-02-06",
+          "valor": 1023.96
+        }
+      ]
+    },
+    {
+      "id": "P-0005",
+      "tipo": "PAGAR",
+      "parceiroId": "F-003",
+      "descricao": "Frete cargas novembro",
+      "valor": 780.25,
+      "saldo": 0,
+      "vencimento": "2025-11-28",
+      "status": "PAGO",
+      "criadoEm": "2025-11-14",
+      "pagamentos": [
+        {
+          "data": "2025-12-08",
+          "valor": 798.43
+        }
+      ]
+    },
+    {
+      "id": "P-0006",
+      "tipo": "PAGAR",
+      "parceiroId": "F-002",
+      "descricao": "Fatura energia fevereiro",
+      "valor": 1310.8,
+      "saldo": 0,
+      "vencimento": "2026-02-25",
+      "status": "PAGO",
+      "criadoEm": "2026-02-10",
+      "pagamentos": [
+        {
+          "data": "2026-03-05",
+          "valor": 1340.48
+        }
+      ]
+    },
+    {
+      "id": "P-0007",
+      "tipo": "PAGAR",
+      "parceiroId": "F-001",
+      "descricao": "Moveis para recepcao",
+      "valor": 2400,
+      "saldo": 1500,
+      "vencimento": "2026-02-10",
+      "status": "PARCIAL",
+      "criadoEm": "2026-01-11",
+      "pagamentos": [
+        {
+          "data": "2026-02-10",
+          "valor": 900
+        }
+      ]
+    },
+    {
+      "id": "P-0008",
+      "tipo": "PAGAR",
+      "parceiroId": "F-004",
+      "descricao": "Upgrade rede cabeada",
+      "valor": 1850.5,
+      "saldo": 1000,
+      "vencimento": "2026-03-25",
+      "status": "PARCIAL",
+      "criadoEm": "2026-03-05",
+      "pagamentos": [
+        {
+          "data": "2026-03-10",
+          "valor": 850.5
+        }
+      ]
+    },
+    {
+      "id": "P-0009",
+      "tipo": "PAGAR",
+      "parceiroId": "F-003",
+      "descricao": "Transporte interestadual",
+      "valor": 1500,
+      "saldo": 934.95,
+      "vencimento": "2026-01-28",
+      "status": "PARCIAL",
+      "criadoEm": "2026-01-06",
+      "pagamentos": [
+        {
+          "data": "2026-02-07",
+          "valor": 600
+        }
+      ]
+    },
+    {
+      "id": "P-0010",
+      "tipo": "PAGAR",
+      "parceiroId": "F-001",
+      "descricao": "Impressos graficos",
+      "valor": 950,
+      "saldo": 572.14,
+      "vencimento": "2026-02-20",
+      "status": "PARCIAL",
+      "criadoEm": "2026-02-04",
+      "pagamentos": [
+        {
+          "data": "2026-03-02",
+          "valor": 400
+        }
+      ]
+    },
+    {
+      "id": "P-0011",
+      "tipo": "PAGAR",
+      "parceiroId": "F-003",
+      "descricao": "Contrato logistica trimestral",
+      "valor": 3000,
+      "saldo": 1549.9,
+      "vencimento": "2026-01-10",
+      "status": "PARCIAL",
+      "criadoEm": "2025-12-06",
+      "pagamentos": [
+        {
+          "data": "2026-01-10",
+          "valor": 1000
+        },
+        {
+          "data": "2026-01-25",
+          "valor": 500
+        }
+      ]
+    },
+    {
+      "id": "P-0012",
+      "tipo": "PAGAR",
+      "parceiroId": "F-002",
+      "descricao": "Adequacao subestacao eletrica",
+      "valor": 12000,
+      "saldo": 3447.72,
+      "vencimento": "2025-12-20",
+      "status": "PARCIAL",
+      "criadoEm": "2025-11-10",
+      "pagamentos": [
+        {
+          "data": "2025-12-20",
+          "valor": 4000
+        },
+        {
+          "data": "2026-01-19",
+          "valor": 3000
+        },
+        {
+          "data": "2026-02-18",
+          "valor": 2000
+        }
+      ]
+    },
+    {
+      "id": "P-0013",
+      "tipo": "PAGAR",
+      "parceiroId": "F-001",
+      "descricao": "Canetas e marcadores",
+      "valor": 19.9,
+      "saldo": 19.9,
+      "vencimento": "2026-03-14",
+      "status": "ABERTO",
+      "criadoEm": "2026-03-04",
+      "pagamentos": []
+    },
+    {
+      "id": "P-0014",
+      "tipo": "PAGAR",
+      "parceiroId": "F-001",
+      "descricao": "Cadeiras ergonomicas",
+      "valor": 4320.75,
+      "saldo": 4320.75,
+      "vencimento": "2026-02-13",
+      "status": "ABERTO",
+      "criadoEm": "2026-01-16",
+      "pagamentos": []
+    },
+    {
+      "id": "P-0015",
+      "tipo": "PAGAR",
+      "parceiroId": "F-003",
+      "descricao": "Frete urgente pecas",
+      "valor": 645.3,
+      "saldo": 645.3,
+      "vencimento": "2026-03-01",
+      "status": "ABERTO",
+      "criadoEm": "2026-02-17",
+      "pagamentos": []
+    },
+    {
+      "id": "P-0016",
+      "tipo": "PAGAR",
+      "parceiroId": "F-004",
+      "descricao": "Hospedagem nuvem marco",
+      "valor": 599.9,
+      "saldo": 599.9,
+      "vencimento": "2026-03-15",
+      "status": "ABERTO",
+      "criadoEm": "2026-02-28",
+      "pagamentos": []
+    },
+    {
+      "id": "P-0017",
+      "tipo": "PAGAR",
+      "parceiroId": "F-004",
+      "descricao": "Suporte tecnico mensal",
+      "valor": 1100,
+      "saldo": 1100,
+      "vencimento": "2026-03-16",
+      "status": "ABERTO",
+      "criadoEm": "2026-02-28",
+      "pagamentos": []
+    },
+    {
+      "id": "P-0018",
+      "tipo": "PAGAR",
+      "parceiroId": "F-002",
+      "descricao": "Fatura energia abril",
+      "valor": 1280.45,
+      "saldo": 1280.45,
+      "vencimento": "2026-04-20",
+      "status": "ABERTO",
+      "criadoEm": "2026-03-13",
+      "pagamentos": []
+    },
+    {
+      "id": "P-0019",
+      "tipo": "PAGAR",
+      "parceiroId": "F-003",
+      "descricao": "Renovacao seguro frota",
+      "valor": 8750,
+      "saldo": 8750,
+      "vencimento": "2026-05-15",
+      "status": "ABERTO",
+      "criadoEm": "2026-04-05",
+      "pagamentos": []
+    },
+    {
+      "id": "P-0020",
+      "tipo": "PAGAR",
+      "parceiroId": "F-004",
+      "descricao": "Servidor dedicado anual",
+      "valor": 15400,
+      "saldo": 15400,
+      "vencimento": "2026-06-10",
+      "status": "ABERTO",
+      "criadoEm": "2026-05-01",
+      "pagamentos": []
+    },
+    {
+      "id": "P-0021",
+      "tipo": "PAGAR",
+      "parceiroId": "F-001",
+      "descricao": "Pedido duplicado envelopes",
+      "valor": 230,
+      "saldo": 0,
+      "vencimento": "2026-01-18",
+      "status": "CANCELADO",
+      "criadoEm": "2026-01-06",
+      "pagamentos": []
+    },
+    {
+      "id": "P-0022",
+      "tipo": "PAGAR",
+      "parceiroId": "F-003",
+      "descricao": "Coleta cancelada pelo cliente",
+      "valor": 410,
+      "saldo": 0,
+      "vencimento": "2026-03-22",
+      "status": "CANCELADO",
+      "criadoEm": "2026-03-07",
+      "pagamentos": []
+    },
+    {
+      "id": "R-0001",
+      "tipo": "RECEBER",
+      "parceiroId": "C-005",
+      "descricao": "Consultoria financeira out",
+      "valor": 1750,
+      "saldo": 0,
+      "vencimento": "2025-10-25",
+      "status": "PAGO",
+      "criadoEm": "2025-10-05",
+      "pagamentos": [
+        {
+          "data": "2025-10-25",
+          "valor": 1750
+        }
+      ]
+    },
+    {
+      "id": "R-0002",
+      "tipo": "RECEBER",
+      "parceiroId": "C-005",
+      "descricao": "Treinamento equipe comercial",
+      "valor": 3250.75,
+      "saldo": 0,
+      "vencimento": "2026-01-15",
+      "status": "PAGO",
+      "criadoEm": "2025-12-28",
+      "pagamentos": [
+        {
+          "data": "2026-01-15",
+          "valor": 3250.75
+        }
+      ]
+    },
+    {
+      "id": "R-0003",
+      "tipo": "RECEBER",
+      "parceiroId": "C-002",
+      "descricao": "Venda lote mercadorias 88",
+      "valor": 2000,
+      "saldo": 0,
+      "vencimento": "2026-01-15",
+      "status": "PAGO",
+      "criadoEm": "2025-12-21",
+      "pagamentos": [
+        {
+          "data": "2026-02-04",
+          "valor": 2053.2
+        }
+      ]
+    },
+    {
+      "id": "R-0004",
+      "tipo": "RECEBER",
+      "parceiroId": "C-003",
+      "descricao": "Fornecimento embalagens fev",
+      "valor": 1420.5,
+      "saldo": 0,
+      "vencimento": "2026-02-18",
+      "status": "PAGO",
+      "criadoEm": "2026-02-03",
+      "pagamentos": [
+        {
+          "data": "2026-03-04",
+          "valor": 1455.47
+        }
+      ]
+    },
+    {
+      "id": "R-0005",
+      "tipo": "RECEBER",
+      "parceiroId": "C-004",
+      "descricao": "Projeto implantacao ERP",
+      "valor": 4000,
+      "saldo": 0,
+      "vencimento": "2026-02-20",
+      "status": "PAGO",
+      "criadoEm": "2026-01-21",
+      "pagamentos": [
+        {
+          "data": "2026-02-12",
+          "valor": 3880
+        }
+      ]
+    },
+    {
+      "id": "R-0006",
+      "tipo": "RECEBER",
+      "parceiroId": "C-005",
+      "descricao": "Auditoria processos internos",
+      "valor": 6500,
+      "saldo": 0,
+      "vencimento": "2026-03-20",
+      "status": "PAGO",
+      "criadoEm": "2026-02-23",
+      "pagamentos": [
+        {
+          "data": "2026-03-10",
+          "valor": 6305
+        }
+      ]
+    },
+    {
+      "id": "R-0007",
+      "tipo": "RECEBER",
+      "parceiroId": "C-004",
+      "descricao": "Licenciamento modulos fiscais",
+      "valor": 2500,
+      "saldo": 0,
+      "vencimento": "2025-11-25",
+      "status": "PAGO",
+      "criadoEm": "2025-11-05",
+      "pagamentos": [
+        {
+          "data": "2025-11-15",
+          "valor": 2425
+        }
+      ]
+    },
+    {
+      "id": "R-0008",
+      "tipo": "RECEBER",
+      "parceiroId": "C-002",
+      "descricao": "Servico manutencao preventiva",
+      "valor": 1800,
+      "saldo": 1000,
+      "vencimento": "2026-02-12",
+      "status": "PARCIAL",
+      "criadoEm": "2026-01-28",
+      "pagamentos": [
+        {
+          "data": "2026-02-12",
+          "valor": 800
+        }
+      ]
+    },
+    {
+      "id": "R-0009",
+      "tipo": "RECEBER",
+      "parceiroId": "C-005",
+      "descricao": "Assessoria contabil marco",
+      "valor": 2200,
+      "saldo": 1200,
+      "vencimento": "2026-03-18",
+      "status": "PARCIAL",
+      "criadoEm": "2026-02-26",
+      "pagamentos": [
+        {
+          "data": "2026-03-15",
+          "valor": 1000
+        }
+      ]
+    },
+    {
+      "id": "R-0010",
+      "tipo": "RECEBER",
+      "parceiroId": "C-001",
+      "descricao": "Pedido atacado 301",
+      "valor": 5000,
+      "saldo": 3123.1,
+      "vencimento": "2026-01-22",
+      "status": "PARCIAL",
+      "criadoEm": "2025-12-31",
+      "pagamentos": [
+        {
+          "data": "2026-02-05",
+          "valor": 2000
+        }
+      ]
+    },
+    {
+      "id": "R-0011",
+      "tipo": "RECEBER",
+      "parceiroId": "C-003",
+      "descricao": "Equipamentos padaria industrial",
+      "valor": 8000,
+      "saldo": 3149.5,
+      "vencimento": "2026-01-12",
+      "status": "PARCIAL",
+      "criadoEm": "2025-12-13",
+      "pagamentos": [
+        {
+          "data": "2026-01-12",
+          "valor": 3000
+        },
+        {
+          "data": "2026-02-11",
+          "valor": 2000
+        }
+      ]
+    },
+    {
+      "id": "R-0012",
+      "tipo": "RECEBER",
+      "parceiroId": "C-004",
+      "descricao": "Sistema gestao hospitalar",
+      "valor": 15000,
+      "saldo": 3494.71,
+      "vencimento": "2026-01-05",
+      "status": "PARCIAL",
+      "criadoEm": "2025-12-01",
+      "pagamentos": [
+        {
+          "data": "2026-01-05",
+          "valor": 5000
+        },
+        {
+          "data": "2026-01-25",
+          "valor": 4000
+        },
+        {
+          "data": "2026-02-24",
+          "valor": 3000
+        }
+      ]
+    },
+    {
+      "id": "R-0013",
+      "tipo": "RECEBER",
+      "parceiroId": "C-001",
+      "descricao": "Pedido atacado 340",
+      "valor": 3450.8,
+      "saldo": 3450.8,
+      "vencimento": "2026-03-10",
+      "status": "ABERTO",
+      "criadoEm": "2026-02-18",
+      "pagamentos": []
+    },
+    {
+      "id": "R-0014",
+      "tipo": "RECEBER",
+      "parceiroId": "C-001",
+      "descricao": "Fornecimento especial fim de ano",
+      "valor": 9876.54,
+      "saldo": 9876.54,
+      "vencimento": "2025-12-15",
+      "status": "ABERTO",
+      "criadoEm": "2025-11-15",
+      "pagamentos": []
+    },
+    {
+      "id": "R-0015",
+      "tipo": "RECEBER",
+      "parceiroId": "C-002",
+      "descricao": "Venda parcelada lote 95",
+      "valor": 1120.35,
+      "saldo": 1120.35,
+      "vencimento": "2026-02-28",
+      "status": "ABERTO",
+      "criadoEm": "2026-02-10",
+      "pagamentos": []
+    },
+    {
+      "id": "R-0016",
+      "tipo": "RECEBER",
+      "parceiroId": "C-005",
+      "descricao": "Mensalidade suporte premium",
+      "valor": 890,
+      "saldo": 890,
+      "vencimento": "2026-03-28",
+      "status": "ABERTO",
+      "criadoEm": "2026-03-13",
+      "pagamentos": []
+    },
+    {
+      "id": "R-0017",
+      "tipo": "RECEBER",
+      "parceiroId": "C-003",
+      "descricao": "Reposicao insumos abril",
+      "valor": 2345.67,
+      "saldo": 2345.67,
+      "vencimento": "2026-04-10",
+      "status": "ABERTO",
+      "criadoEm": "2026-03-13",
+      "pagamentos": []
+    },
+    {
+      "id": "R-0018",
+      "tipo": "RECEBER",
+      "parceiroId": "C-004",
+      "descricao": "Expansao licencas clinica",
+      "valor": 7600,
+      "saldo": 7600,
+      "vencimento": "2026-04-25",
+      "status": "ABERTO",
+      "criadoEm": "2026-03-16",
+      "pagamentos": []
+    },
+    {
+      "id": "R-0019",
+      "tipo": "RECEBER",
+      "parceiroId": "C-005",
+      "descricao": "Consultoria tributaria anual",
+      "valor": 14200,
+      "saldo": 14200,
+      "vencimento": "2026-05-20",
+      "status": "ABERTO",
+      "criadoEm": "2026-04-10",
+      "pagamentos": []
+    },
+    {
+      "id": "R-0020",
+      "tipo": "RECEBER",
+      "parceiroId": "C-004",
+      "descricao": "Projeto transformacao digital completo",
+      "valor": 50000,
+      "saldo": 50000,
+      "vencimento": "2026-06-25",
+      "status": "ABERTO",
+      "criadoEm": "2026-05-16",
+      "pagamentos": []
+    },
+    {
+      "id": "R-0021",
+      "tipo": "RECEBER",
+      "parceiroId": "C-002",
+      "descricao": "Orcamento reprovado 112",
+      "valor": 670,
+      "saldo": 0,
+      "vencimento": "2026-02-05",
+      "status": "CANCELADO",
+      "criadoEm": "2026-01-22",
+      "pagamentos": []
+    },
+    {
+      "id": "R-0022",
+      "tipo": "RECEBER",
+      "parceiroId": "C-003",
+      "descricao": "Nota emitida com erro de valor",
+      "valor": 1590.9,
+      "saldo": 0,
+      "vencimento": "2026-03-12",
+      "status": "CANCELADO",
+      "criadoEm": "2026-03-02",
+      "pagamentos": []
+    }
+  ],
+  "seq": {
+    "parceiro": 11,
+    "pagar": 22,
+    "receber": 22
+  }
+}

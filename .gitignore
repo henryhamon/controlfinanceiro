@@ -1,3 +1,9 @@
+
+# Sistema e editores
+.DS_Store
+.idea/
+.vscode/
+
 # Logs
 logs
 *.log

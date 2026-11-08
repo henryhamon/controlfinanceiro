@@ -1,0 +1,8 @@
+{
+  "name": "control-financeiro",
+  "version": "1.0.0",
+  "scripts": {
+    "add": "node src/cli.js",
+    "start": "node src/web.js"
+  }
+}
