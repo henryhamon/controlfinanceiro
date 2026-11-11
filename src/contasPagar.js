@@ -150,7 +150,7 @@ function baixar(id, valorPago, dataPagamento) {
     lanc.saldo = 0;
   } else {
     lanc.status = 'PARCIAL';
-    lanc.saldo = util.round2(enc.totalDevido - vp);
+    lanc.saldo = util.round2(lanc.valor - vp);
   }
 
   dbMod.salvar(db);
